@@ -1,0 +1,21 @@
+.root CopyWindow,
+.root CopyWindowEx{
+    -fx-padding: 120px 0 0 100px;
+}
+
+#copyInputField,
+#copiedTextLabel{
+    -fx-pref-height: 25px;
+    -fx-pref-width: 200px;
+}
+
+#copiedTextLabel{
+    -fx-background-color: whitesmoke;
+    -fx-padding: 0 0 0 9px ;
+}
+
+#copyBtn{
+    -fx-pref-height: 50px;
+    -fx-pref-width: 100px;
+    -fx-text-alignment: center;
+}
